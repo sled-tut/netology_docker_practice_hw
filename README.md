@@ -36,6 +36,12 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000"]
 ```
 .dockerignore:
 ```
+.git
+.gitignore
+__pycache__
+.env
+venv
+env
 ```
 
 ## Задача 3
