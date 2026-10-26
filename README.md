@@ -100,6 +100,10 @@ volumes:
 ![](images/задача%203%202.png)
 SQL-запрос:
 ![](images/задача%203%203.png)
+
+## Задача 4
+https://github.com/sled-tut/shvirtd-example-python
+
 ## Задача 6
 ![](images/задача%206%201.png)
 ![](images/задача%206%202.png)
