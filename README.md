@@ -102,7 +102,9 @@ SQL-запрос:
 ![](images/задача%203%203.png)
 
 ## Задача 4
+Поскольку ресурсы Yandex Cloud практически недоступны, я арендовала VPS c публичным IP-адресом 168.113.173.249.
 https://github.com/sled-tut/shvirtd-example-python
+
 
 ## Задача 6
 ![](images/задача%206%201.png)
