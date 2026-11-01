@@ -43,6 +43,23 @@ __pycache__
 venv
 env
 ```
+.gitignore:
+```
+.env
+.env.*
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+```
 
 ## Задача 3
 compose.yaml:
@@ -103,6 +120,7 @@ SQL-запрос:
 
 ## Задача 4
 Поскольку ресурсы Yandex Cloud практически недоступны, я арендовала VPS c публичным IP-адресом 168.113.173.249.
+
 ![](images/задача%204.png)
 
 https://github.com/sled-tut/shvirtd-example-python
