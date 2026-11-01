@@ -4,7 +4,7 @@
 ## Задача 1
 Dockerfile.python:
 ```
-ROM python:3.12-slim as builder
+FROM python:3.12-slim as builder
 
 WORKDIR /app
 
@@ -53,7 +53,7 @@ include:
 
 services:
   db:
-    image: mysql
+    image: mysql:8
     container_name: db
     restart: on-failure
     environment:
@@ -82,7 +82,7 @@ services:
       - DB_USER=app
       - DB_PASSWORD=${MYSQL_PASSWORD}
       - DB_NAME=${MYSQL_DATABASE}
-    restart: on-failure
+    restart: always
     depends_on:
       - db
 
